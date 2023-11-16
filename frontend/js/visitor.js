@@ -8,7 +8,7 @@ function updateVisitorCount() {
         document.getElementById(webcounter).textContent = count;
     })
     .catch((error) =>{
-        console.log("Error: " +error);
+        console.log("Error: " + error);
     });
 };
 updateVisitorCount()

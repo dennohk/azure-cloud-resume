@@ -1,5 +1,5 @@
 //Azure Fuction endpoint
-const functionUrl ="";
+const functionUrl ="https://azureresumeapi.azurewebsites.net";
 
 //Get request to Azure endpoint
 function updateVisitorCount() {
